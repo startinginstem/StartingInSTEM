@@ -1,0 +1,46 @@
+a{
+    color: pink;
+}
+
+
+ul{
+    margin-left: 425px;
+    width: 45%;
+    
+}
+
+h2{
+    margin-left: 425px;
+}
+
+h1{
+    text-align: center;
+    background: white;
+    border: 1px solid pink; 
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    
+}
+
+@media screen and (max-width: 376px) {
+    ul{
+        width: 75%;
+        margin-left: 10vw;
+        margin-right: 0vw;
+        
+    }
+
+    h1{
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    h2{
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}

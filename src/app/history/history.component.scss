@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 376px) {
+    p{
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+}
